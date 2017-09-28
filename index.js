@@ -1,4 +1,9 @@
+const path = require('path')
+
 const videoshow = require('videoshow')
+
+const input = path.resolve(__dirname, 'image.png')
+const output = path.resolve(__dirname, 'video.mp4')
 
 const videoOptions = {
   fps: 25,
